@@ -1,0 +1,8 @@
+# 
+allow platform_app sysfs:file { read };
+allow platform_app sysfs:file { open };
+allow platform_app sysfs:file { getattr };
+allow platform_app vendor_sysfs_battery_supply:dir { search };
+allow platform_app vendor_sysfs_battery_supply:file { read };
+allow platform_app vendor_sysfs_battery_supply:file { open };
+allow platform_app vendor_sysfs_battery_supply:file { getattr };
